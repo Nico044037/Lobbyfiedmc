@@ -2,7 +2,6 @@
   "version": 2,
   "redirects": [
     {
-      "comment": "COMMENT: === SERVER SWITCH === STATUS: OFF (SERVERS DOWN) === INSTRUCTION: Delete this block to turn servers ON.",
       "source": "/(.*)",
       "destination": "https://servers-down.nicoprojects.dev",
       "permanent": false
