@@ -1,5 +1,8 @@
 {
   "version": 2,
+  "COMMENT": "==================== SERVER SWITCH ====================",
+  "STATUS": "OFF = SERVERS DOWN (ACTIVE)",
+  "INSTRUCTION": "To turn servers ON, change the destination below to your main website domain, or delete the entire redirects block below.",
   "redirects": [
     {
       "source": "/(.*)",
