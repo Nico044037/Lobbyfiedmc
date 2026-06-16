@@ -1,10 +1,8 @@
 {
   "version": 2,
   "redirects": [
-    "COMMENT: ==================== SERVER SWITCH ====================",
-    "STATUS: OFF = SERVERS DOWN (ACTIVE)",
-    "INSTRUCTION: To turn servers ON, change the destination below to your main website domain, or delete this entire block.",
     {
+      "comment": "COMMENT: === SERVER SWITCH === STATUS: OFF (SERVERS DOWN) === INSTRUCTION: Delete this block to turn servers ON.",
       "source": "/(.*)",
       "destination": "https://servers-down.nicoprojects.dev",
       "permanent": false
